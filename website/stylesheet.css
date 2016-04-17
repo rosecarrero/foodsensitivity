@@ -1,0 +1,92 @@
+/*
+ External stylesheet for my Personal Project 
+*/
+
+/* The body consists of the food image */
+
+body {
+    border: 5px solid #6495ED; 
+    align-content: center;
+    height: 1100px;
+    width: 100%;
+    background-color: lightblue; 
+    font-family: Amiri,Georgia,serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header1  {
+    text-align: center;
+    font-size: 30px;
+    font-family: Amiri;
+    color:  FF0000;
+    background-color: yellow;
+    border: 5px solid #6495ED;
+    position: relative;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Amiri;
+    color: FF0000;
+    border: 3px solid #6495ED;
+    position: relative;
+}
+
+/* The paragraphs are in the About Page and the Nutrition Page */
+
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: Amiri;
+    color: FF0000;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid #6495ED;
+    margin: 5px 5px 5px 5px;
+    width:98%;
+    display: block;
+}   
+
+ /* There are two images */
+ 
+img {
+    border: 10px solid #6495ED; 
+    margin: 20px 20px 20px 200px;
+    height: 480px;
+    width: 70%;
+    position:relative;
+}
+
+/* The navigation bar section */
+/* There are two external links */
+
+#nav ul { 
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+#nav li {
+    display:inline-block;
+    margin: 5px;
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #BCD2EE;
+    border:3px solid #6495ED;
+    padding: 5px 35px;
+    font-size: 25px;    
+}
+
+/* color changes to red when the mouse hovers over the link */
+#nav li a:hover {
+    display: block;
+    color: red;
+}
+
+ 
